@@ -3,6 +3,6 @@
     hosts: ubuntu
     tasks:
       - name: ensure nano is there
-        yum:
+        apt:
           name: nano
           state: latest
